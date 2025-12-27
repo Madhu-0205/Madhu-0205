@@ -1,4 +1,4 @@
-# 💫 About Me:
+# I'm Madhu
 Curious builder passionate about technology, problem-solving, and creating meaningful digital experiences<br> Student developer exploring data, AI, and scalable web systems—building in public and learning by doing.<br><br>🔭 Currently working on:<br>Student-centric platforms, automation tools, and full-stack projects<br><br>🤝 Open to collaborate on:<br>Open-source, hackathons, and early-stage tech ideas<br><br>🌱 Currently learning:<br>Data science, machine learning, system design, and cloud basics<br><br>💬 Ask me about:<br>Python, web development, SQL, AI tools, and student startups<br><br>⚡ Fun fact:<br>Most of my projects started as college problems 😄
 
 
