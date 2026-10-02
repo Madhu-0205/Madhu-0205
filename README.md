@@ -1,18 +1,143 @@
-# I'm Madhu
-Curious builder passionate about technology, problem-solving, and creating meaningful digital experiences<br> Student developer exploring data, AI, and scalable web systems—building in public and learning by doing.<br><br>🔭 Currently working on:<br>Student-centric platforms, automation tools, and full-stack projects<br><br>🤝 Open to collaborate on:<br>Open-source, hackathons, and early-stage tech ideas<br><br>🌱 Currently learning:<br>Data science, machine learning, system design, and cloud basics<br><br>💬 Ask me about:<br>Python, web development, SQL, AI tools, and student startups<br><br>⚡ Fun fact:<br>Most of my projects started as college problems 😄
+<div align="center">
 
+<!-- ==================================================
+     1. HERO DASHBOARD
+================================================== -->
+<p align="center">
+  <img src="assets/hero.svg" alt="Madhu Valurouthu Hero Telemetry" width="100%" />
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/isntitmadhuuuu?utm ) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/madhu-valurouthu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:madhuvalurouthu52@gmail.com) 
+<p align="center">
+  <a href="https://github.com/Madhu-0205"><img src="https://img.shields.io/badge/GitHub-Madhu--0205-0284C7?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/madhu-valurouthu/"><img src="https://img.shields.io/badge/LinkedIn-Madhu%20Valurouthu-4338CA?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:madhuvalurouthu52@gmail.com"><img src="https://img.shields.io/badge/Email-Direct%20Transmission-0369A1?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.instagram.com/isntitmadhuuuu/"><img src="https://img.shields.io/badge/Instagram-%40isntitmadhuuuu-BE185D?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+</p>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=blurred-machine&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=blurred-machine&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=blurred-machine&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
----
-[![](https://visitcount.itsvg.in/api?id=blurred-machine&icon=0&color=0)](https://visitcount.itsvg.in)
+<!-- ==================================================
+     2. WHAT I BUILD
+================================================== -->
+<p align="center">
+  <img src="assets/what-i-build.svg" alt="What I Build" width="100%" />
+</p>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<br/>
+
+<!-- ==================================================
+     3. HOBBIES & INTERESTS
+================================================== -->
+<p align="center">
+  <img src="assets/hobbies.svg" alt="Hobbies and Interests" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     4. TECH STACK
+================================================== -->
+<p align="center">
+  <img src="assets/tech-stack.svg" alt="Verified Technology Stack" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     5. GITHUB IDENTITY
+================================================== -->
+<p align="center">
+  <img src="assets/github-identity.svg" alt="GitHub Identity Telemetry" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     6. GITHUB STATS
+================================================== -->
+<p align="center">
+  <img src="assets/github-stats.svg" alt="Verified GitHub Statistics" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     7. TOP LANGUAGES
+================================================== -->
+<p align="center">
+  <img src="assets/github-languages.svg" alt="Top Languages Distribution" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     8. GITHUB STREAK
+================================================== -->
+<p align="center">
+  <img src="assets/github-streak.svg" alt="Contribution Momentum & Streak" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     9. CONTRIBUTION ACTIVITY MATRIX
+================================================== -->
+<p align="center">
+  <img src="assets/contribution-activity.svg" alt="53-Week Contribution Activity Heatmap" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     10. FEATURED PROJECTS
+================================================== -->
+<p align="center">
+  <img src="assets/projects.svg" alt="Featured Production Projects" width="100%" />
+</p>
+
+<p align="center">
+  <b>Production Access &amp; Source Code:</b><br/>
+  <a href="https://campusconnectco.in"><b>CampusConnectCo</b> (Live Platform)</a> &bull; <a href="https://github.com/Madhu-0205/campusconnectco.in">Source</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://ruchi-sage.vercel.app"><b>RUCHI</b> (Live App)</a> &bull; <a href="https://github.com/Madhu-0205/ruchi">Source</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/Madhu-0205/JobNest"><b>JobNest</b> (Source)</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/Madhu-0205/section-controller"><b>Rail AI DSS</b> (Source)</a>
+</p>
+
+<br/>
+
+<!-- ==================================================
+     11. 3D CONTRIBUTION CITY
+================================================== -->
+<p align="center">
+  <img src="assets/contribution-city.svg" alt="3D Isometric Contribution City Skyline" width="100%" />
+</p>
+
+<br/>
+
+<!-- ==================================================
+     12. CONNECT WITH ME
+================================================== -->
+<p align="center">
+  <img src="assets/connect.svg" alt="Connect With Me Channels" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Madhu-0205"><img src="https://img.shields.io/badge/GitHub-Profile-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/madhu-valurouthu/"><img src="https://img.shields.io/badge/LinkedIn-Connect-4338CA?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://www.instagram.com/isntitmadhuuuu/"><img src="https://img.shields.io/badge/Instagram-Follow-BE185D?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  &nbsp;
+  <a href="mailto:madhuvalurouthu52@gmail.com"><img src="https://img.shields.io/badge/Direct%20Email-Transmit-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<br/>
+
+<p align="center">
+  <sub>Designed &amp; engineered for <b>Madhu Valurouthu</b> &bull; Real-time telemetry automatically refreshed via GitHub Actions</sub>
+</p>
+
+</div>

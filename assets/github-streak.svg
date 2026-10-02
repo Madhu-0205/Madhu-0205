@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 165" width="1000" height="165" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050A14"/>
+      <stop offset="50%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#0B162C"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#081020" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="streakGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(56, 189, 248, 0.035)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+  </style>
+
+  <rect width="1000" height="165" rx="14" fill="url(#bgGrad)"/>
+  <rect width="1000" height="165" rx="14" fill="url(#grid)"/>
+  <rect width="1000" height="165" rx="14" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" fill="none"/>
+
+  <!-- Section Header -->
+  <text x="24" y="26" class="mono" font-size="10" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// COMMIT CONSISTENCY &amp; CONTINUITY • Madhu-0205</text>
+  <text x="24" y="46" class="sans" font-size="17" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">GITHUB STREAK</text>
+  <path d="M 24 53 L 155 53" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 163 53 L 976 53" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Panel 1: Total Contributions -->
+  <g transform="translate(24, 64)">
+    <rect width="304" height="85" rx="8" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#10B981" rx="1"/>
+    <circle cx="26" cy="28" r="12" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+    <path d="M 20 28 L 24 32 L 32 24" fill="none" stroke="#10B981" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="48" y="22" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.5">TOTAL CONTRIBUTIONS</text>
+    <text x="48" y="48" class="mono" font-size="24" font-weight="800" fill="#F8FAFC">295</text>
+    <text x="48" y="68" class="mono" font-size="8.5" fill="#10B981">Sep 28, 2025 – Present Year</text>
+  </g>
+
+  <!-- Panel 2: Current Streak (Centerpiece) -->
+  <g transform="translate(348, 64)">
+    <rect width="304" height="85" rx="8" fill="url(#cardGrad)" stroke="rgba(245, 158, 11, 0.45)" stroke-width="1.2"/>
+    <rect x="0" y="0" width="304" height="2" fill="url(#streakGlow)" rx="1"/>
+    <circle cx="26" cy="28" r="12" fill="rgba(245, 158, 11, 0.15)" stroke="rgba(245, 158, 11, 0.5)" stroke-width="1"/>
+    <path d="M 26 20 C 26 20 22 25 22 28 C 22 30.2 23.8 32 26 32 C 28.2 32 30 30.2 30 28 C 30 25 26 20 26 20 Z" fill="#F59E0B"/>
+    <text x="48" y="22" class="mono" font-size="9.5" fill="#F59E0B" letter-spacing="0.5">CURRENT STREAK (LIVE)</text>
+    <text x="48" y="48" class="mono" font-size="24" font-weight="800" fill="#F59E0B">12 DAYS</text>
+    <text x="48" y="68" class="mono" font-size="8.5" fill="#CBD5E1">Sep 21, 2026 – Oct 02, 2026 (Active)</text>
+  </g>
+
+  <!-- Panel 3: Longest Streak -->
+  <g transform="translate(672, 64)">
+    <rect width="304" height="85" rx="8" fill="url(#cardGrad)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#8B5CF6" rx="1"/>
+    <circle cx="26" cy="28" r="12" fill="rgba(139, 92, 246, 0.12)" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1"/>
+    <path d="M 20 22 H 32 V 27 C 32 30.3 29.3 33 26 33 C 22.7 33 20 30.3 20 27 Z M 22 33 L 21 36 H 31 L 30 33" fill="none" stroke="#8B5CF6" stroke-width="1.4"/>
+    <text x="48" y="22" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.5">LONGEST STREAK</text>
+    <text x="48" y="48" class="mono" font-size="24" font-weight="800" fill="#F8FAFC">12 DAYS</text>
+    <text x="48" y="68" class="mono" font-size="8.5" fill="#8B5CF6">Peak Sustained Consistency</text>
+  </g>
+</svg>

@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050A14"/>
+      <stop offset="50%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#0B162C"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#081020" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(56, 189, 248, 0.035)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+    .pill { rx: 6px; fill: #071322; stroke: rgba(56, 189, 248, 0.3); stroke-width: 1; }
+  </style>
+
+  <rect width="1000" height="390" rx="14" fill="url(#bgGrad)"/>
+  <rect width="1000" height="390" rx="14" fill="url(#grid)"/>
+  <rect width="1000" height="390" rx="14" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" fill="none"/>
+
+  <!-- Section Header -->
+  <text x="24" y="30" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// ARSENAL &amp; ENVIRONMENT</text>
+  <text x="24" y="52" class="sans" font-size="19" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">TECH STACK</text>
+  <path d="M 24 60 L 140 60" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 148 60 L 976 60" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- ================= ROW 1 ================= -->
+  <!-- 1. LANGUAGES (x=24, y=74, w=304, h=142) -->
+  <g transform="translate(24, 74)">
+    <rect width="304" height="142" rx="10" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#38BDF8" rx="1"/>
+    <text x="16" y="26" class="mono" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1">[01] LANGUAGES</text>
+
+    <!-- Pills Grid -->
+    <!-- Python -->
+    <g transform="translate(16, 42)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#3776AB"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Python</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Data • Backend</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(156, 42)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#3178C6"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">TypeScript</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Primary 76.4%</text>
+    </g>
+
+    <!-- JavaScript -->
+    <g transform="translate(16, 88)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#F7DF1E"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">JavaScript</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Full-Stack 20.6%</text>
+    </g>
+
+    <!-- Java -->
+    <g transform="translate(156, 88)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#ED8B00"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Java</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">OOP • Academic</text>
+    </g>
+  </g>
+
+  <!-- 2. FRONTEND (x=348, y=74, w=304, h=142) -->
+  <g transform="translate(348, 74)">
+    <rect width="304" height="142" rx="10" fill="url(#cardGrad)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#6366F1" rx="1"/>
+    <text x="16" y="26" class="mono" font-size="11" font-weight="700" fill="#818CF8" letter-spacing="1">[02] FRONTEND</text>
+
+    <!-- React -->
+    <g transform="translate(16, 42)">
+      <rect width="86" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#61DAFB"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">React</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">SPA/Vite</text>
+    </g>
+
+    <!-- Next.js -->
+    <g transform="translate(108, 42)">
+      <rect width="92" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#FFFFFF"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">Next.js</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">App Router</text>
+    </g>
+
+    <!-- Tailwind CSS -->
+    <g transform="translate(206, 42)">
+      <rect width="82" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#38BDF8"/>
+      <text x="28" y="19" class="sans" font-size="10.5" font-weight="700" fill="#F8FAFC">Tailwind</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Modern UI</text>
+    </g>
+
+    <!-- Vite -->
+    <g transform="translate(16, 88)">
+      <rect width="86" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#646CFF"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">Vite</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Bundler</text>
+    </g>
+
+    <!-- HTML5 -->
+    <g transform="translate(108, 88)">
+      <rect width="92" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#E34F26"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">HTML5</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Semantic</text>
+    </g>
+
+    <!-- CSS3 -->
+    <g transform="translate(206, 88)">
+      <rect width="82" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#1572B6"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">CSS3</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Animations</text>
+    </g>
+  </g>
+
+  <!-- 3. BACKEND (x=672, y=74, w=304, h=142) -->
+  <g transform="translate(672, 74)">
+    <rect width="304" height="142" rx="10" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#10B981" rx="1"/>
+    <text x="16" y="26" class="mono" font-size="11" font-weight="700" fill="#10B981" letter-spacing="1">[03] BACKEND</text>
+
+    <!-- Node.js -->
+    <g transform="translate(16, 42)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#5FA04E"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Node.js</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Runtime Engine</text>
+    </g>
+
+    <!-- Express.js -->
+    <g transform="translate(156, 42)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#CBD5E1"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Express.js</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">REST APIs</text>
+    </g>
+
+    <!-- FastAPI -->
+    <g transform="translate(16, 88)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#009688"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">FastAPI</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Python Async APIs</text>
+    </g>
+
+    <!-- REST & Webhooks -->
+    <g transform="translate(156, 88)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#38BDF8"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Webhooks</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Realtime Events</text>
+    </g>
+  </g>
+
+  <!-- ================= ROW 2 ================= -->
+  <!-- 4. DATABASE & STORAGE (x=24, y=228, w=304, h=142) -->
+  <g transform="translate(24, 228)">
+    <rect width="304" height="142" rx="10" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#38BDF8" rx="1"/>
+    <text x="16" y="26" class="mono" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1">[04] DATABASE &amp; SPATIAL</text>
+
+    <!-- PostgreSQL -->
+    <g transform="translate(16, 42)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#4169E1"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">PostgreSQL</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Relational / GIST</text>
+    </g>
+
+    <!-- Supabase -->
+    <g transform="translate(156, 42)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#3ECF8E"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Supabase</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Auth • Storage • DB</text>
+    </g>
+
+    <!-- MySQL -->
+    <g transform="translate(16, 88)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#4479A1"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">MySQL</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Schemas &amp; Indexing</text>
+    </g>
+
+    <!-- PostGIS -->
+    <g transform="translate(156, 88)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#2E8B57"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">PostGIS</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Spatial Radials</text>
+    </g>
+  </g>
+
+  <!-- 5. AI / ML ECOSYSTEM (x=348, y=228, w=304, h=142) -->
+  <g transform="translate(348, 228)">
+    <rect width="304" height="142" rx="10" fill="url(#cardGrad)" stroke="rgba(167, 139, 250, 0.3)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#A78BFA" rx="1"/>
+    <text x="16" y="26" class="mono" font-size="11" font-weight="700" fill="#A78BFA" letter-spacing="1">[05] AI &amp; MACHINE LEARNING</text>
+
+    <!-- PyTorch -->
+    <g transform="translate(16, 42)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#EE4C2C"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">PyTorch</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Neural Networks</text>
+    </g>
+
+    <!-- scikit-learn -->
+    <g transform="translate(156, 42)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#F7931E"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">scikit-learn</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Classifiers &amp; Reg</text>
+    </g>
+
+    <!-- Python ML / Pandas -->
+    <g transform="translate(16, 88)">
+      <rect width="128" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#150458"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">Pandas/NumPy</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">Data Pipelines</text>
+    </g>
+
+    <!-- AI Tooling / Vision -->
+    <g transform="translate(156, 88)">
+      <rect width="132" height="38" class="pill"/>
+      <circle cx="18" cy="19" r="5" fill="#8B5CF6"/>
+      <text x="32" y="19" class="sans" font-size="11.5" font-weight="700" fill="#F8FAFC">AI Vision</text>
+      <text x="32" y="31" class="mono" font-size="8" fill="#94A3B8">RUCHI Ingredient AI</text>
+    </g>
+  </g>
+
+  <!-- 6. CLOUD & TOOLS (x=672, y=228, w=304, h=142) -->
+  <g transform="translate(672, 228)">
+    <rect width="304" height="142" rx="10" fill="url(#cardGrad)" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1"/>
+    <rect x="0" y="0" width="304" height="2" fill="#F59E0B" rx="1"/>
+    <text x="16" y="26" class="mono" font-size="11" font-weight="700" fill="#F59E0B" letter-spacing="1">[06] CLOUD &amp; DEV TOOLS</text>
+
+    <!-- AWS / Vercel -->
+    <g transform="translate(16, 42)">
+      <rect width="86" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#FF9900"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">AWS</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Cloud Core</text>
+    </g>
+
+    <!-- Docker -->
+    <g transform="translate(108, 42)">
+      <rect width="92" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#2496ED"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">Docker</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Containers</text>
+    </g>
+
+    <!-- GitHub Actions -->
+    <g transform="translate(206, 42)">
+      <rect width="82" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#2088FF"/>
+      <text x="28" y="19" class="sans" font-size="10.5" font-weight="700" fill="#F8FAFC">Actions</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">CI/CD Auto</text>
+    </g>
+
+    <!-- Git & GitHub -->
+    <g transform="translate(16, 88)">
+      <rect width="86" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#F05032"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">Git</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Version Sys</text>
+    </g>
+
+    <!-- Figma -->
+    <g transform="translate(108, 88)">
+      <rect width="92" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#F24E1E"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">Figma</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">UI Systems</text>
+    </g>
+
+    <!-- Canva -->
+    <g transform="translate(206, 88)">
+      <rect width="82" height="38" class="pill"/>
+      <circle cx="16" cy="19" r="4.5" fill="#00C4CC"/>
+      <text x="28" y="19" class="sans" font-size="11" font-weight="700" fill="#F8FAFC">Canva</text>
+      <text x="28" y="31" class="mono" font-size="8" fill="#94A3B8">Graphics</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 175" width="1000" height="175" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050A14"/>
+      <stop offset="50%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#0B162C"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#081020" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(56, 189, 248, 0.035)" stroke-width="1"/>
+    </pattern>
+    <clipPath id="barClip">
+      <rect x="24" y="64" width="952" height="14" rx="7"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+  </style>
+
+  <rect width="1000" height="175" rx="14" fill="url(#bgGrad)"/>
+  <rect width="1000" height="175" rx="14" fill="url(#grid)"/>
+  <rect width="1000" height="175" rx="14" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" fill="none"/>
+
+  <!-- Section Header -->
+  <text x="24" y="26" class="mono" font-size="10" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// VERIFIED REPOSITORY BYTE DISTRIBUTION • 9.67 MB TOTAL</text>
+  <text x="24" y="46" class="sans" font-size="17" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">TOP LANGUAGES</text>
+  <path d="M 24 53 L 160 53" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 168 53 L 976 53" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Multi-Segment Progress Bar (Total width: 952px) -->
+  <!-- Background trough -->
+  <rect x="24" y="64" width="952" height="14" rx="7" fill="#0A1324" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+  <g clip-path="url(#barClip)">
+    <!-- TypeScript: 76.41% = 727.4px -->
+    <rect x="24" y="64" width="727.4" height="14" fill="#3178C6"/>
+    <!-- JavaScript: 20.56% = 195.7px (x = 24 + 727.4 = 751.4) -->
+    <rect x="751.4" y="64" width="195.7" height="14" fill="#F7DF1E"/>
+    <!-- PLpgSQL: 1.33% = 12.7px (x = 751.4 + 195.7 = 947.1) -->
+    <rect x="947.1" y="64" width="12.7" height="14" fill="#4169E1"/>
+    <!-- CSS: 0.70% = 6.7px (x = 947.1 + 12.7 = 959.8) -->
+    <rect x="959.8" y="64" width="6.7" height="14" fill="#563D7C"/>
+    <!-- Python: 0.46% = 4.4px (x = 959.8 + 6.7 = 966.5) -->
+    <rect x="966.5" y="64" width="4.4" height="14" fill="#3572A5"/>
+    <!-- HTML/Shell: 0.54% = 5.1px (x = 966.5 + 4.4 = 970.9) -->
+    <rect x="970.9" y="64" width="5.1" height="14" fill="#E34C26"/>
+  </g>
+
+  <!-- Legend Items (Row below bar, y=94) -->
+  <!-- 1. TypeScript -->
+  <g transform="translate(24, 94)">
+    <rect width="150" height="62" rx="7" fill="url(#cardGrad)" stroke="rgba(49, 120, 198, 0.35)" stroke-width="1"/>
+    <circle cx="16" cy="20" r="5" fill="#3178C6"/>
+    <text x="28" y="20" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">TypeScript</text>
+    <text x="28" y="37" class="mono" font-size="13" font-weight="800" fill="#38BDF8">76.41%</text>
+    <text x="28" y="51" class="mono" font-size="8.5" fill="#94A3B8">7.39 MB</text>
+  </g>
+
+  <!-- 2. JavaScript -->
+  <g transform="translate(184, 94)">
+    <rect width="150" height="62" rx="7" fill="url(#cardGrad)" stroke="rgba(247, 223, 30, 0.35)" stroke-width="1"/>
+    <circle cx="16" cy="20" r="5" fill="#F7DF1E"/>
+    <text x="28" y="20" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">JavaScript</text>
+    <text x="28" y="37" class="mono" font-size="13" font-weight="800" fill="#F7DF1E">20.56%</text>
+    <text x="28" y="51" class="mono" font-size="8.5" fill="#94A3B8">1.99 MB</text>
+  </g>
+
+  <!-- 3. PLpgSQL / Postgres -->
+  <g transform="translate(344, 94)">
+    <rect width="150" height="62" rx="7" fill="url(#cardGrad)" stroke="rgba(65, 105, 225, 0.35)" stroke-width="1"/>
+    <circle cx="16" cy="20" r="5" fill="#4169E1"/>
+    <text x="28" y="20" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">PostgreSQL</text>
+    <text x="28" y="37" class="mono" font-size="13" font-weight="800" fill="#60A5FA">1.33%</text>
+    <text x="28" y="51" class="mono" font-size="8.5" fill="#94A3B8">129 KB</text>
+  </g>
+
+  <!-- 4. CSS -->
+  <g transform="translate(504, 94)">
+    <rect width="150" height="62" rx="7" fill="url(#cardGrad)" stroke="rgba(86, 61, 124, 0.35)" stroke-width="1"/>
+    <circle cx="16" cy="20" r="5" fill="#A78BFA"/>
+    <text x="28" y="20" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">CSS3</text>
+    <text x="28" y="37" class="mono" font-size="13" font-weight="800" fill="#A78BFA">0.70%</text>
+    <text x="28" y="51" class="mono" font-size="8.5" fill="#94A3B8">67.4 KB</text>
+  </g>
+
+  <!-- 5. Python -->
+  <g transform="translate(664, 94)">
+    <rect width="150" height="62" rx="7" fill="url(#cardGrad)" stroke="rgba(53, 114, 165, 0.35)" stroke-width="1"/>
+    <circle cx="16" cy="20" r="5" fill="#3572A5"/>
+    <text x="28" y="20" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">Python</text>
+    <text x="28" y="37" class="mono" font-size="13" font-weight="800" fill="#38BDF8">0.46%</text>
+    <text x="28" y="51" class="mono" font-size="8.5" fill="#94A3B8">44.5 KB</text>
+  </g>
+
+  <!-- 6. HTML & Shell -->
+  <g transform="translate(824, 94)">
+    <rect width="152" height="62" rx="7" fill="url(#cardGrad)" stroke="rgba(227, 76, 38, 0.35)" stroke-width="1"/>
+    <circle cx="16" cy="20" r="5" fill="#E34C26"/>
+    <text x="28" y="20" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">HTML / Shell</text>
+    <text x="28" y="37" class="mono" font-size="13" font-weight="800" fill="#FB923C">0.54%</text>
+    <text x="28" y="51" class="mono" font-size="8.5" fill="#94A3B8">52.3 KB</text>
+  </g>
+</svg>
