@@ -6,12 +6,22 @@
       <stop offset="100%" stop-color="#0B162C"/>
     </linearGradient>
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#081020" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#081020" stop-opacity="0.96"/>
     </linearGradient>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(56, 189, 248, 0.035)" stroke-width="1"/>
     </pattern>
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <style>
@@ -24,22 +34,50 @@
 
   <rect width="1000" height="180" rx="14" fill="url(#bgGrad)"/>
   <rect width="1000" height="180" rx="14" fill="url(#grid)"/>
-  <rect width="1000" height="180" rx="14" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" fill="none"/>
+  <rect width="1000" height="180" rx="14" stroke="#38BDF8" stroke-width="1" fill="none">
+    <animate attributeName="stroke-opacity" values="0.15;0.35;0.15" dur="6s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Section Header -->
-  <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// TELEMETRY &amp; VERIFIED CODES</text>
-  <text x="24" y="48" class="sans" font-size="18" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">GITHUB IDENTITY</text>
-  <path d="M 24 55 L 180 55" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 188 55 L 976 55" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3"/>
+  <g>
+    <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// TELEMETRY &amp; VERIFIED CODES</text>
+    <text x="24" y="48" class="sans" font-size="18" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">GITHUB IDENTITY</text>
+    <path d="M 24 55 L 180 55" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 188 55 L 976 55" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3">
+      <animate attributeName="stroke-dashoffset" from="0" to="24" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <line x1="188" y1="55" x2="320" y2="55" stroke="url(#beamGrad)" stroke-width="2">
+      <animate attributeName="x1" values="188;840;188" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="320;972;320" dur="8s" repeatCount="indefinite"/>
+    </line>
+  </g>
 
   <!-- Col 1: System Identity -->
-  <g transform="translate(24, 65)">
-    <rect width="304" height="100" rx="8" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1"/>
+  <g opacity="0" transform="translate(24, 73)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="24 73" to="24 65" dur="0.45s" begin="0.15s" fill="freeze"/>
+
+    <rect width="304" height="100" rx="8" fill="url(#cardGrad)" stroke="#38BDF8" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.25;0.65;0.25" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="304" height="2" fill="#38BDF8" rx="1"/>
+    
+    <!-- Subtle vertical scanning laser inside card -->
+    <line x1="2" y1="4" x2="302" y2="4" stroke="url(#scanBeam)" stroke-width="1.5">
+      <animate attributeName="y1" values="4;96;4" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="4;96;4" dur="5s" repeatCount="indefinite"/>
+    </line>
+
     <text x="14" y="18" class="mono" font-size="10" font-weight="700" fill="#38BDF8">// PROFILE CODES</text>
+    <circle cx="290" cy="14" r="2.5" fill="#38BDF8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
     
     <text x="14" y="38" class="key">USERNAME :</text>
     <text x="95" y="38" class="val-code">Madhu-0205</text>
+    <rect x="175" y="29" width="5" height="11" fill="#38BDF8">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
     
     <text x="14" y="56" class="key">NAME     :</text>
     <text x="95" y="56" class="val">Madhu Valurouthu</text>
@@ -48,14 +86,30 @@
     <text x="95" y="74" class="val-code">U_kgDODPPIiw</text>
     
     <text x="14" y="91" class="key">STATUS   :</text>
-    <text x="95" y="91" class="val" fill="#10B981" font-size="10">● VERIFIED BUILDER</text>
+    <circle cx="100" cy="87.5" r="3.5" fill="#10B981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="87.5" r="6" fill="none" stroke="#10B981" stroke-width="1">
+      <animate attributeName="r" values="3.5;7.5;3.5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="110" y="91" class="val" fill="#10B981" font-size="10">VERIFIED BUILDER</text>
   </g>
 
   <!-- Col 2: Academic & Origin -->
-  <g transform="translate(348, 65)">
-    <rect width="304" height="100" rx="8" fill="url(#cardGrad)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+  <g opacity="0" transform="translate(348, 73)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="348 73" to="348 65" dur="0.45s" begin="0.35s" fill="freeze"/>
+
+    <rect width="304" height="100" rx="8" fill="url(#cardGrad)" stroke="#6366F1" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="304" height="2" fill="#6366F1" rx="1"/>
+    
     <text x="14" y="18" class="mono" font-size="10" font-weight="700" fill="#818CF8">// ACADEMIC &amp; LOCATION</text>
+    <circle cx="290" cy="14" r="2.5" fill="#818CF8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     
     <text x="14" y="38" class="key">COLLEGE  :</text>
     <text x="90" y="38" class="val">Pragati Engg College</text>
@@ -71,10 +125,19 @@
   </g>
 
   <!-- Col 3: Focus & Coordinates -->
-  <g transform="translate(672, 65)">
-    <rect width="304" height="100" rx="8" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+  <g opacity="0" transform="translate(672, 73)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.55s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="672 73" to="672 65" dur="0.45s" begin="0.55s" fill="freeze"/>
+
+    <rect width="304" height="100" rx="8" fill="url(#cardGrad)" stroke="#10B981" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="304" height="2" fill="#10B981" rx="1"/>
+    
     <text x="14" y="18" class="mono" font-size="10" font-weight="700" fill="#10B981">// CORE DISCIPLINES</text>
+    <circle cx="290" cy="14" r="2.5" fill="#10B981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
     
     <text x="14" y="38" class="key">FOCUS 1  :</text>
     <text x="90" y="38" class="val">Data Science &amp; AI</text>

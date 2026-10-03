@@ -6,12 +6,17 @@
       <stop offset="100%" stop-color="#0B162C"/>
     </linearGradient>
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#081020" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#0D192E" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#081020" stop-opacity="0.96"/>
     </linearGradient>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(56, 189, 248, 0.035)" stroke-width="1"/>
     </pattern>
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <style>
@@ -22,23 +27,40 @@
 
   <rect width="1000" height="400" rx="14" fill="url(#bgGrad)"/>
   <rect width="1000" height="400" rx="14" fill="url(#grid)"/>
-  <rect width="1000" height="400" rx="14" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" fill="none"/>
+  <rect width="1000" height="400" rx="14" stroke="#38BDF8" stroke-width="1" fill="none">
+    <animate attributeName="stroke-opacity" values="0.15;0.35;0.15" dur="6s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Section Header -->
-  <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// PRODUCTION SYSTEMS &amp; INNOVATIONS</text>
-  <text x="24" y="50" class="sans" font-size="19" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">FEATURED PROJECTS</text>
-  <path d="M 24 58 L 220 58" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 228 58 L 976 58" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3"/>
+  <g>
+    <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// PRODUCTION SYSTEMS &amp; INNOVATIONS</text>
+    <text x="24" y="50" class="sans" font-size="19" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">FEATURED PROJECTS</text>
+    <path d="M 24 58 L 220 58" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 228 58 L 976 58" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3">
+      <animate attributeName="stroke-dashoffset" from="0" to="24" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <line x1="228" y1="58" x2="360" y2="58" stroke="url(#beamGrad)" stroke-width="2">
+      <animate attributeName="x1" values="228;840;228" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="360;972;360" dur="8s" repeatCount="indefinite"/>
+    </line>
+  </g>
 
   <!-- ================= ROW 1 ================= -->
   <!-- Project 1: CampusConnectCo (x=24, y=70, w=464, h=148) -->
-  <g transform="translate(24, 70)">
-    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+  <g opacity="0" transform="translate(24, 78)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="24 78" to="24 70" dur="0.45s" begin="0.15s" fill="freeze"/>
+
+    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="#38BDF8" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.25;0.7;0.25" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="464" height="2" fill="#38BDF8" rx="1"/>
 
-    <!-- Header Badge -->
+    <!-- Header Badge with pulsing indicator -->
     <rect x="18" y="16" width="138" height="18" rx="4" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
-    <circle cx="27" cy="25" r="3" fill="#10B981"/>
+    <circle cx="27" cy="25" r="3" fill="#10B981">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+    </circle>
     <text x="36" y="28" class="mono" font-size="8.5" font-weight="700" fill="#10B981">FLAGSHIP PLATFORM</text>
 
     <!-- Project Title -->
@@ -49,8 +71,9 @@
     <text x="18" y="74" class="sans" font-size="11" fill="#CBD5E1">Campus platform connecting collegiate talent to local jobs, micro-gigs,</text>
     <text x="18" y="90" class="sans" font-size="11" fill="#CBD5E1">internships, peer skill exchange, and verified startups.</text>
 
-    <!-- Tech Pills -->
-    <g transform="translate(18, 108)">
+    <!-- Tech Pills with gentle fade in -->
+    <g transform="translate(18, 108)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.35s" fill="freeze"/>
       <rect x="0" y="0" width="60" height="20" class="badge"/>
       <text x="30" y="13" class="mono" fill="#38BDF8" text-anchor="middle">Next.js</text>
 
@@ -67,20 +90,29 @@
       <text x="338" y="13" class="mono" fill="#38BDF8" text-anchor="middle">Tailwind</text>
     </g>
 
-    <!-- Actions / Links -->
+    <!-- Actions / Links with subtle hover-like glow -->
     <g transform="translate(390, 16)">
-      <rect x="0" y="0" width="58" height="22" rx="5" fill="#091322" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+      <rect x="0" y="0" width="58" height="22" rx="5" fill="#091322" stroke="#38BDF8" stroke-width="1">
+        <animate attributeName="stroke-opacity" values="0.4;0.95;0.4" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
       <text x="29" y="14" class="sans" font-size="9.5" font-weight="700" fill="#38BDF8" text-anchor="middle">Live ↗</text>
     </g>
   </g>
 
   <!-- Project 2: RUCHI (x=512, y=70, w=464, h=148) -->
-  <g transform="translate(512, 70)">
-    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="rgba(236, 72, 153, 0.3)" stroke-width="1"/>
+  <g opacity="0" transform="translate(512, 78)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.3s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="512 78" to="512 70" dur="0.45s" begin="0.3s" fill="freeze"/>
+
+    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="#EC4899" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.75;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="464" height="2" fill="#EC4899" rx="1"/>
 
     <rect x="18" y="16" width="138" height="18" rx="4" fill="rgba(236, 72, 153, 0.12)" stroke="rgba(236, 72, 153, 0.4)" stroke-width="1"/>
-    <circle cx="27" cy="25" r="3" fill="#EC4899"/>
+    <circle cx="27" cy="25" r="3" fill="#EC4899">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
     <text x="36" y="28" class="mono" font-size="8.5" font-weight="700" fill="#EC4899">AI CULINARY ENGINE</text>
 
     <text x="18" y="54" class="sans" font-size="16" font-weight="800" fill="#F8FAFC">RUCHI</text>
@@ -90,7 +122,8 @@
     <text x="18" y="90" class="sans" font-size="11" fill="#CBD5E1">from photos to synthesize budget-optimized, tailored meal plans.</text>
 
     <!-- Tech Pills -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 108)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze"/>
       <rect x="0" y="0" width="60" height="20" class="badge"/>
       <text x="30" y="13" class="mono" fill="#EC4899" text-anchor="middle">Next.js</text>
 
@@ -108,19 +141,28 @@
     </g>
 
     <g transform="translate(390, 16)">
-      <rect x="0" y="0" width="58" height="22" rx="5" fill="#091322" stroke="rgba(236, 72, 153, 0.4)" stroke-width="1"/>
+      <rect x="0" y="0" width="58" height="22" rx="5" fill="#091322" stroke="#EC4899" stroke-width="1">
+        <animate attributeName="stroke-opacity" values="0.4;0.95;0.4" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
       <text x="29" y="14" class="sans" font-size="9.5" font-weight="700" fill="#EC4899" text-anchor="middle">Live ↗</text>
     </g>
   </g>
 
   <!-- ================= ROW 2 ================= -->
   <!-- Project 3: JobNest (x=24, y=232, w=464, h=148) -->
-  <g transform="translate(24, 232)">
-    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+  <g opacity="0" transform="translate(24, 240)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.45s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="24 240" to="24 232" dur="0.45s" begin="0.45s" fill="freeze"/>
+
+    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="#6366F1" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.75;0.3" dur="4s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="464" height="2" fill="#6366F1" rx="1"/>
 
     <rect x="18" y="16" width="145" height="18" rx="4" fill="rgba(99, 102, 241, 0.12)" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1"/>
-    <circle cx="27" cy="25" r="3" fill="#818CF8"/>
+    <circle cx="27" cy="25" r="3" fill="#818CF8">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="36" y="28" class="mono" font-size="8.5" font-weight="700" fill="#818CF8">HYPERLOCAL GIG GRAPH</text>
 
     <text x="18" y="54" class="sans" font-size="16" font-weight="800" fill="#F8FAFC">JobNest</text>
@@ -130,7 +172,8 @@
     <text x="18" y="90" class="sans" font-size="11" fill="#CBD5E1">local micro-jobs using PostGIS spatial indexes (&lt;12ms latency).</text>
 
     <!-- Tech Pills -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 108)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze"/>
       <rect x="0" y="0" width="80" height="20" class="badge"/>
       <text x="40" y="13" class="mono" fill="#818CF8" text-anchor="middle">PostgreSQL</text>
 
@@ -148,18 +191,27 @@
     </g>
 
     <g transform="translate(382, 16)">
-      <rect x="0" y="0" width="66" height="22" rx="5" fill="#091322" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1"/>
+      <rect x="0" y="0" width="66" height="22" rx="5" fill="#091322" stroke="#6366F1" stroke-width="1">
+        <animate attributeName="stroke-opacity" values="0.4;0.95;0.4" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
       <text x="33" y="14" class="sans" font-size="9.5" font-weight="700" fill="#818CF8" text-anchor="middle">GitHub ↗</text>
     </g>
   </g>
 
   <!-- Project 4: Rail AI Decision Support System (x=512, y=232, w=464, h=148) -->
-  <g transform="translate(512, 232)">
-    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1"/>
+  <g opacity="0" transform="translate(512, 240)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="512 240" to="512 232" dur="0.45s" begin="0.6s" fill="freeze"/>
+
+    <rect width="464" height="148" rx="10" fill="url(#cardGrad)" stroke="#F59E0B" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;0.75;0.3" dur="4.4s" repeatCount="indefinite"/>
+    </rect>
     <rect x="0" y="0" width="464" height="2" fill="#F59E0B" rx="1"/>
 
     <rect x="18" y="16" width="155" height="18" rx="4" fill="rgba(245, 158, 11, 0.12)" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1"/>
-    <circle cx="27" cy="25" r="3" fill="#F59E0B"/>
+    <circle cx="27" cy="25" r="3" fill="#F59E0B">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
     <text x="36" y="28" class="mono" font-size="8.5" font-weight="700" fill="#F59E0B">SMART INDIA HACKATHON</text>
 
     <text x="18" y="54" class="sans" font-size="16" font-weight="800" fill="#F8FAFC">Rail AI Decision Support</text>
@@ -169,7 +221,8 @@
     <text x="18" y="90" class="sans" font-size="11" fill="#CBD5E1">providing real-time conflict detection and dynamic precedence.</text>
 
     <!-- Tech Pills -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 108)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
       <rect x="0" y="0" width="60" height="20" class="badge"/>
       <text x="30" y="13" class="mono" fill="#F59E0B" text-anchor="middle">Python</text>
 
@@ -184,7 +237,9 @@
     </g>
 
     <g transform="translate(382, 16)">
-      <rect x="0" y="0" width="66" height="22" rx="5" fill="#091322" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1"/>
+      <rect x="0" y="0" width="66" height="22" rx="5" fill="#091322" stroke="#F59E0B" stroke-width="1">
+        <animate attributeName="stroke-opacity" values="0.4;0.95;0.4" dur="2.7s" repeatCount="indefinite"/>
+      </rect>
       <text x="33" y="14" class="sans" font-size="9.5" font-weight="700" fill="#F59E0B" text-anchor="middle">GitHub ↗</text>
     </g>
   </g>
