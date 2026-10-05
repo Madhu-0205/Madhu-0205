@@ -50,7 +50,7 @@
 
   <!-- Section Header -->
   <g>
-    <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// ISOMETRIC TELEMETRY MAPPING • 371 CONTRIBUTIONS</text>
+    <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// ISOMETRIC TELEMETRY MAPPING • 381 CONTRIBUTIONS</text>
     <text x="24" y="50" class="sans" font-size="19" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">3D CONTRIBUTION CITY</text>
     <path d="M 24 58 L 248 58" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
     <path d="M 256 58 L 976 58" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3">
@@ -2828,11 +2828,15 @@
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.780s" fill="freeze"/>
-      <title>2026-10-04: 0 contributions</title>
-      <path d="M 877.0 365.2 L 883.0 368.2 L 883.0 371.7 L 877.0 368.7 Z" fill="#07101E" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
-      <path d="M 883.0 368.2 L 889.0 365.2 L 889.0 368.7 L 883.0 371.7 Z" fill="#050B15" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
-      <path d="M 883.0,362.2 L 889.0,365.2 L 883.0,368.2 L 877.0,365.2 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
+      <title>2026-10-04: 10 contributions</title>
+      <path d="M 877.0 329.7 L 883.0 332.7 L 883.0 371.7 L 877.0 368.7 Z" fill="#0284C7" stroke="#7DD3FC" stroke-width="0.3"/>
+      <path d="M 883.0 332.7 L 889.0 329.7 L 889.0 368.7 L 883.0 371.7 Z" fill="#4338CA" stroke="#7DD3FC" stroke-width="0.3"/>
+      <path d="M 883.0,326.7 L 889.0,329.7 L 883.0,332.7 L 877.0,329.7 Z" fill="#38BDF8" stroke="#7DD3FC" stroke-width="0.4">
+        <animate attributeName="fill-opacity" values="0.75;1;0.75" dur="3.0s" repeatCount="indefinite"/>
       </path>
+      <circle cx="883.0" cy="326.7" r="1.8" fill="#BAE6FD">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.690s" fill="freeze"/>
@@ -2892,10 +2896,10 @@
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.780s" fill="freeze"/>
-      <title>2026-09-28: 2 contributions</title>
-      <path d="M 862.0 362.2 L 868.0 365.2 L 868.0 379.2 L 862.0 376.2 Z" fill="#0369A1" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.3"/>
-      <path d="M 868.0 365.2 L 874.0 362.2 L 874.0 376.2 L 868.0 379.2 Z" fill="#075985" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.3"/>
-      <path d="M 868.0,359.2 L 874.0,362.2 L 868.0,365.2 L 862.0,362.2 Z" fill="#0284C7" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.4">
+      <title>2026-10-05: 0 contributions</title>
+      <path d="M 862.0 372.7 L 868.0 375.7 L 868.0 379.2 L 862.0 376.2 Z" fill="#07101E" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 868.0 375.7 L 874.0 372.7 L 874.0 376.2 L 868.0 379.2 Z" fill="#050B15" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 868.0,369.7 L 874.0,372.7 L 868.0,375.7 L 862.0,372.7 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
       </path>
     </g>
     <g opacity="0">

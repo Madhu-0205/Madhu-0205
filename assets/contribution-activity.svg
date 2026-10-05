@@ -33,7 +33,7 @@
 
   <!-- Header -->
   <g>
-    <text x="24" y="26" class="mono" font-size="10" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// 371 CONTRIBUTIONS IN 2025–2026 • 53 WEEKS</text>
+    <text x="24" y="26" class="mono" font-size="10" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// 381 CONTRIBUTIONS IN 2025–2026 • 53 WEEKS</text>
     <text x="24" y="46" class="sans" font-size="17" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">CONTRIBUTION ACTIVITY</text>
     <path d="M 24 53 L 230 53" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
     <path d="M 238 53 L 976 53" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3">
@@ -596,8 +596,8 @@
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.780s" fill="freeze"/>
-      <rect x="940" y="66" width="13" height="13" rx="2.5" fill="#0B1728" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.8"><title>2026-10-04: 0 contributions</title></rect>
-      <rect x="940" y="83" width="13" height="13" rx="2.5" fill="#075985" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.0"><title>2026-09-28: 2 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
+      <rect x="940" y="66" width="13" height="13" rx="2.5" fill="#38BDF8" stroke="rgba(56, 189, 248, 0.6)" stroke-width="1.0"><title>2026-10-04: 10 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
+      <rect x="940" y="83" width="13" height="13" rx="2.5" fill="#0B1728" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.8"><title>2026-10-05: 0 contributions</title></rect>
       <rect x="940" y="100" width="13" height="13" rx="2.5" fill="#0284C7" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1.0"><title>2026-09-29: 5 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
       <rect x="940" y="117" width="13" height="13" rx="2.5" fill="#075985" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.0"><title>2026-09-30: 2 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
       <rect x="940" y="134" width="13" height="13" rx="2.5" fill="#0284C7" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1.0"><title>2026-10-01: 5 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
