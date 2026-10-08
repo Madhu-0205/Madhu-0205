@@ -600,7 +600,7 @@
       <rect x="940" y="83" width="13" height="13" rx="2.5" fill="#0B1728" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.8"><title>2026-10-05: 0 contributions</title></rect>
       <rect x="940" y="100" width="13" height="13" rx="2.5" fill="#075985" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.0"><title>2026-10-06: 2 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
       <rect x="940" y="117" width="13" height="13" rx="2.5" fill="#0B1728" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.8"><title>2026-10-07: 0 contributions</title></rect>
-      <rect x="940" y="134" width="13" height="13" rx="2.5" fill="#0284C7" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1.0"><title>2026-10-01: 5 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
+      <rect x="940" y="134" width="13" height="13" rx="2.5" fill="#0B1728" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.8"><title>2026-10-08: 0 contributions</title></rect>
       <rect x="940" y="151" width="13" height="13" rx="2.5" fill="#0284C7" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1.0"><title>2026-10-02: 5 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
       <rect x="940" y="168" width="13" height="13" rx="2.5" fill="#7DD3FC" stroke="rgba(56, 189, 248, 0.8)" stroke-width="1.0"><title>2026-10-03: 20 contributions</title><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.0s" repeatCount="indefinite"/></rect>
     </g>
