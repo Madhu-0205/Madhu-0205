@@ -50,7 +50,7 @@
 
   <!-- Section Header -->
   <g>
-    <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// ISOMETRIC TELEMETRY MAPPING • 405 CONTRIBUTIONS</text>
+    <text x="24" y="28" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8" letter-spacing="1.5">// ISOMETRIC TELEMETRY MAPPING • 407 CONTRIBUTIONS</text>
     <text x="24" y="50" class="sans" font-size="19" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">3D CONTRIBUTION CITY</text>
     <path d="M 24 58 L 248 58" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
     <path d="M 256 58 L 976 58" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="3 3">
@@ -3052,10 +3052,10 @@
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.780s" fill="freeze"/>
-      <title>2026-10-09: 0 contributions</title>
-      <path d="M 802.0 402.7 L 808.0 405.7 L 808.0 409.2 L 802.0 406.2 Z" fill="#07101E" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
-      <path d="M 808.0 405.7 L 814.0 402.7 L 814.0 406.2 L 808.0 409.2 Z" fill="#050B15" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
-      <path d="M 808.0,399.7 L 814.0,402.7 L 808.0,405.7 L 802.0,402.7 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
+      <title>2026-10-09: 2 contributions</title>
+      <path d="M 802.0 392.2 L 808.0 395.2 L 808.0 409.2 L 802.0 406.2 Z" fill="#0369A1" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.3"/>
+      <path d="M 808.0 395.2 L 814.0 392.2 L 814.0 406.2 L 808.0 409.2 Z" fill="#075985" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.3"/>
+      <path d="M 808.0,389.2 L 814.0,392.2 L 808.0,395.2 L 802.0,392.2 Z" fill="#0284C7" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.4">
       </path>
     </g>
     <g opacity="0">
@@ -3066,17 +3066,13 @@
       <path d="M 780.0,401.0 L 786.0,404.0 L 780.0,407.0 L 774.0,404.0 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
       </path>
     </g>
-    <g filter="url(#cityGlow)" opacity="0">
+    <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.780s" fill="freeze"/>
-      <title>2026-10-03: 20 contributions</title>
-      <path d="M 787.0 354.2 L 793.0 357.2 L 793.0 416.7 L 787.0 413.7 Z" fill="#38BDF8" stroke="#BAE6FD" stroke-width="0.3"/>
-      <path d="M 793.0 357.2 L 799.0 354.2 L 799.0 413.7 L 793.0 416.7 Z" fill="#6366F1" stroke="#BAE6FD" stroke-width="0.3"/>
-      <path d="M 793.0,351.2 L 799.0,354.2 L 793.0,357.2 L 787.0,354.2 Z" fill="#7DD3FC" stroke="#BAE6FD" stroke-width="0.4">
-        <animate attributeName="fill-opacity" values="0.75;1;0.75" dur="3.0s" repeatCount="indefinite"/>
+      <title>2026-10-10: 0 contributions</title>
+      <path d="M 787.0 410.2 L 793.0 413.2 L 793.0 416.7 L 787.0 413.7 Z" fill="#07101E" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 793.0 413.2 L 799.0 410.2 L 799.0 413.7 L 793.0 416.7 Z" fill="#050B15" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 793.0,407.2 L 799.0,410.2 L 793.0,413.2 L 787.0,410.2 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
       </path>
-      <circle cx="793.0" cy="351.2" r="1.8" fill="#BAE6FD">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
-      </circle>
     </g>
   </g>
 
