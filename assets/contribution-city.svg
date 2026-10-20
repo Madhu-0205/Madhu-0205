@@ -2950,17 +2950,13 @@
       <path d="M 728.0,376.2 L 734.0,379.2 L 728.0,382.2 L 722.0,379.2 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
       </path>
     </g>
-    <g filter="url(#cityGlow)" opacity="0">
+    <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.780s" fill="freeze"/>
-      <title>2026-10-13: 20 contributions</title>
-      <path d="M 847.0 324.2 L 853.0 327.2 L 853.0 386.7 L 847.0 383.7 Z" fill="#38BDF8" stroke="#BAE6FD" stroke-width="0.3"/>
-      <path d="M 853.0 327.2 L 859.0 324.2 L 859.0 383.7 L 853.0 386.7 Z" fill="#6366F1" stroke="#BAE6FD" stroke-width="0.3"/>
-      <path d="M 853.0,321.2 L 859.0,324.2 L 853.0,327.2 L 847.0,324.2 Z" fill="#7DD3FC" stroke="#BAE6FD" stroke-width="0.4">
-        <animate attributeName="fill-opacity" values="0.75;1;0.75" dur="3.0s" repeatCount="indefinite"/>
+      <title>2026-10-20: 0 contributions</title>
+      <path d="M 847.0 380.2 L 853.0 383.2 L 853.0 386.7 L 847.0 383.7 Z" fill="#07101E" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 853.0 383.2 L 859.0 380.2 L 859.0 383.7 L 853.0 386.7 Z" fill="#050B15" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 853.0,377.2 L 859.0,380.2 L 853.0,383.2 L 847.0,380.2 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
       </path>
-      <circle cx="853.0" cy="321.2" r="1.8" fill="#BAE6FD">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
-      </circle>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.765s" fill="freeze"/>
