@@ -2992,10 +2992,10 @@
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.780s" fill="freeze"/>
-      <title>2026-10-14: 2 contributions</title>
-      <path d="M 832.0 377.2 L 838.0 380.2 L 838.0 394.2 L 832.0 391.2 Z" fill="#0369A1" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.3"/>
-      <path d="M 838.0 380.2 L 844.0 377.2 L 844.0 391.2 L 838.0 394.2 Z" fill="#075985" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.3"/>
-      <path d="M 838.0,374.2 L 844.0,377.2 L 838.0,380.2 L 832.0,377.2 Z" fill="#0284C7" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.4">
+      <title>2026-10-21: 0 contributions</title>
+      <path d="M 832.0 387.7 L 838.0 390.7 L 838.0 394.2 L 832.0 391.2 Z" fill="#07101E" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 838.0 390.7 L 844.0 387.7 L 844.0 391.2 L 838.0 394.2 Z" fill="#050B15" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.3"/>
+      <path d="M 838.0,384.7 L 844.0,387.7 L 838.0,390.7 L 832.0,387.7 Z" fill="#0B1628" stroke="rgba(56, 189, 248, 0.12)" stroke-width="0.4">
       </path>
     </g>
     <g opacity="0">
